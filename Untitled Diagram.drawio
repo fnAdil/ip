@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T17:53:52.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="0kReb2LKn5Gh4Y3Hglyg" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T18:54:07.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="aZP2P3kVKYm5mxVH4t9c" version="19.0.0" type="github">
   <diagram id="yiPQ5q0tm_okkBS-MZWn" name="Page-1">
-    <mxGraphModel dx="4922" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="6503" dy="3147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4431,7 +4431,7 @@
         <mxCell id="Y2zhkIS31p-13minjZJR-157" value="Order" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="7110" y="4088" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Y2zhkIS31p-13minjZJR-158" value="+ orderID&#xa;+ date&#xa;+ client id&#xa;+ total&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Y2zhkIS31p-13minjZJR-157" vertex="1">
+        <mxCell id="Y2zhkIS31p-13minjZJR-158" value="+ orderID&#xa;+ date&#xa;+ client id&#xa;+ total&#xa;&#xa;+ createInvoice&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Y2zhkIS31p-13minjZJR-157" vertex="1">
           <mxGeometry y="26" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="Y2zhkIS31p-13minjZJR-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.357;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y2zhkIS31p-13minjZJR-161" target="Y2zhkIS31p-13minjZJR-57" edge="1">
@@ -4581,7 +4581,7 @@
         <mxCell id="WqXthC_qbv0y44sLT-eQ-10" value="Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="12230" y="1110" width="810" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="WqXthC_qbv0y44sLT-eQ-6" value="addStockInfo(count)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;" parent="1" source="amJn2_gOQc6ZTfq7nSLq-22" target="amJn2_gOQc6ZTfq7nSLq-10" edge="1">
+        <mxCell id="WqXthC_qbv0y44sLT-eQ-6" value="increaseStock(count)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;" parent="1" source="amJn2_gOQc6ZTfq7nSLq-22" target="amJn2_gOQc6ZTfq7nSLq-10" edge="1">
           <mxGeometry x="0.0407" width="80" relative="1" as="geometry">
             <mxPoint x="12310" y="1129" as="sourcePoint" />
             <mxPoint x="12710" y="1129" as="targetPoint" />
